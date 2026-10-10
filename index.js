@@ -1,5 +1,2 @@
-const a = async ()=>{
-    return "Nothing is bad"
-}
-{[]}
-[[]]
+const h = window.innerHeight - document.getElementById('header').getBoundingClientRect().height;
+document.getElementById('editor').style.height = h;
